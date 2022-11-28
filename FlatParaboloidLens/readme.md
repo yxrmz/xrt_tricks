@@ -4,6 +4,6 @@ This example is based on xrt 1.5.0, here I show
 3) How to add multiple sources / multiple beam paths in xrtQook
 
 oes.py replaces the file in xrt/backends/raycing.\
-Change the path in flatparalens_test.py sys.path.append() according to your environment\
+Change the path in flatparalens_test.py sys.path.append() according to your environment \
 
 ![output](dual_para_flat.png)
