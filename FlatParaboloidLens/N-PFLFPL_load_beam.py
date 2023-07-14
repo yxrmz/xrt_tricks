@@ -46,9 +46,11 @@ lens_Be = rmats.Material(
     rho=1.848,
     name=None)
 
-load_pos = 59100
+screen_pos = 59100
+load_pos = 59092.825
 zmax=1.
-t=0.05
+t=0.025
+
 
 
 def build_beamline(E):
@@ -207,7 +209,7 @@ def build_beamline(E):
     P23_U32.screen_sample = rscreens.Screen(
         bl=P23_U32,
         name=r"U32_screen_DCM",
-        center=[0, 87894-load_pos, 0])
+        center=[0, 87894-screen_pos, 0])
 
     return P23_U32
 
