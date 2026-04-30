@@ -16,7 +16,7 @@ Created with xrtQook
 import numpy as np
 import sys
 import os
-sys.path.append(r"C:\GitHub\xrt")
+
 import xrt.backends.raycing.sources as rsources
 import xrt.backends.raycing.screens as rscreens
 import xrt.backends.raycing.materials as rmats
