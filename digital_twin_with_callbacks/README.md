@@ -20,7 +20,7 @@ Beamline updates are driven by EPICS callbacks using `pyepics`:
 
 - Each update triggers:
   - beamline reconfiguration
-  - ray/wave propagation
+  - beam propagation
   - OpenGL rendering
 
 ## Customization
