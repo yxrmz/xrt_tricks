@@ -133,7 +133,7 @@ def callback_update_oe(beamline=None, oeName=None, argName=None,
         oeid = beamline.oenamesToUUIDs.get(oeName)
         cglw = beamline.blViewer.customGlWidget
         cglw.update_beamline(
-                oeid, {argName: value*2})
+                oeid, {argName: value})
     except Exception:
         pass
 
