@@ -33,6 +33,15 @@ You can implement your own logic inside the callback function, for example:
 
 This allows flexible integration with real hardware or control systems.
 
+## Dependencies
+
+This example requires
+   ```bash
+    xrt >= 2.0.0b1
+    softioc
+    pyepics
+   ```
+
 ## Running the example
 
 1. Start the example IOC:
