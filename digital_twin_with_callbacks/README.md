@@ -38,7 +38,7 @@ This allows flexible integration with real hardware or control systems.
 This example requires
    ```bash
     xrt >= 2.0.0b1
-    softioc
+    softioc or caproto
     pyepics
    ```
 
@@ -53,8 +53,12 @@ This example requires
    ```bash
    python simple_ioc.py
    ```
+   or
+   ```bash
+   python simple_caproto.py
+   ```   
 
-2. Launch the xrt Glow viewer:
+3. Launch the xrt Glow viewer:
    ```bash
    python one_crystal_glow.py
    ```
