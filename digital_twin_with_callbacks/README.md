@@ -42,6 +42,11 @@ This example requires
     pyepics
    ```
 
+## Installation
+
+   ```bash
+    pip install xrt[all] --pre
+   ```
 ## Running the example
 
 1. Start the example IOC:
